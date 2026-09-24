@@ -6,13 +6,14 @@ It combines Retrieval-Augmented Generation (RAG) with multimodal AI to provide c
 
 ## 🚀 Features
 
-- 💬 Text-based AI chatbot
-- 🖼️ Image upload and image understanding
-- 📚 Retrieval-Augmented Generation (RAG)
-- 🧠 AI-powered educational explanations
-- 🎓 Student-focused learning assistance
-- ⚡ Powered by Groq AI models
-- ☁️ Deployed on Vercel
+* 💬 Text-based AI chatbot
+* 🖼️ Image upload and image understanding
+* 📚 Retrieval-Augmented Generation (RAG)
+* 🧠 AI-powered educational explanations
+* 🎓 Student-focused learning assistance
+* ⚡ Powered by Groq AI models
+* 🔧 AI tool calling for study-plan generation
+* ☁️ Deployed on Vercel
 
 ## 🧩 How It Works
 
@@ -22,38 +23,56 @@ It combines Retrieval-Augmented Generation (RAG) with multimodal AI to provide c
 4. The retrieved context is provided to the AI model.
 5. The AI generates a clear and student-friendly response.
 6. For image input, the multimodal AI model analyzes the uploaded image directly.
+7. For study-plan requests, the AI can use a tool to generate a structured plan.
 
 ## 📚 RAG Knowledge Base
 
 The project includes an educational knowledge base covering:
 
-- Machine Learning
-- Deep Learning
-- CNN
-- LSTM
-- Natural Language Processing
-- Tokenization
-- Generative AI
-- Retrieval-Augmented Generation
-- Education
-- Time Management
+* Machine Learning
+* Deep Learning
+* CNN
+* LSTM
+* Natural Language Processing
+* Tokenization
+* Generative AI
+* Retrieval-Augmented Generation
+* Education
+* Time Management
 
 ## 🛠️ Tech Stack
 
-- Next.js
-- TypeScript
-- React
-- Tailwind CSS
-- Vercel AI SDK
-- Groq API
-- Retrieval-Augmented Generation (RAG)
-- GitHub
-- Vercel
+* Next.js
+* TypeScript
+* React
+* Tailwind CSS
+* Vercel AI SDK
+* Groq API
+* Retrieval-Augmented Generation (RAG)
+* GitHub
+* Vercel
+
+## 🔧 Tool Calling
+
+StudyMate AI includes an AI tool-calling capability for generating personalized study plans.
+
+The `createStudyPlan` tool accepts:
+
+* Topic
+* Number of study days
+* Study hours per day
+
+Example:
+
+> Create a 3-day study plan for CNN and LSTM, 2 hours per day.
+
+The AI uses the tool to generate a structured study plan and presents it to the student.
 
 ## 📁 Project Structure
 
 ```text
 studymate-ai/
+
 ├── app/
 │   ├── api/
 │   │   └── chat/
@@ -61,9 +80,106 @@ studymate-ai/
 │   ├── page.tsx
 │   ├── layout.tsx
 │   └── globals.css
+│
 ├── lib/
 │   └── rag.ts
+│
 ├── knowledge.txt
 ├── package.json
 ├── README.md
 └── .env.local
+```
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/2310040058/studymate-ai.git
+cd studymate-ai
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure the API key
+
+Create a `.env.local` file in the project root:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+## 🎯 Demo Guide
+
+### Text Chat
+
+Ask questions about:
+
+* Machine Learning
+* CNN
+* LSTM
+* NLP
+* Generative AI
+* RAG
+
+### RAG Example
+
+```text
+What is RAG according to the knowledge base?
+```
+
+### Image Understanding
+
+Upload an educational image and ask:
+
+```text
+Explain this image in simple terms for a student.
+```
+
+### Tool Calling Example
+
+```text
+Create a 3-day study plan for CNN and LSTM, 2 hours per day.
+```
+
+## ☁️ Deployment
+
+The application is deployed using Vercel.
+
+### Live Demo
+
+https://studymate-3udjjkw70-siri-9282.vercel.app
+
+### GitHub Repository
+
+https://github.com/2310040058/studymate-ai
+
+## 📋 Assignment Requirements Covered
+
+* ✅ Multimodal chatbot
+* ✅ Text input
+* ✅ Image input
+* ✅ Retrieval-Augmented Generation (RAG)
+* ✅ Custom knowledge base
+* ✅ AI-generated responses
+* ✅ Tool calling
+* ✅ Vercel deployment
+* ✅ Public GitHub repository
+* ✅ Setup instructions
+* ✅ Demo guide
