@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StudyMate AI 🎓
 
-## Getting Started
+StudyMate AI is a multimodal AI learning assistant that helps students understand educational content using text and image inputs.
 
-First, run the development server:
+It combines Retrieval-Augmented Generation (RAG) with multimodal AI to provide contextual and grounded answers from a custom educational knowledge base.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 💬 Text-based AI chatbot
+- 🖼️ Image upload and image understanding
+- 📚 Retrieval-Augmented Generation (RAG)
+- 🧠 AI-powered educational explanations
+- 🎓 Student-focused learning assistance
+- ⚡ Powered by Groq AI models
+- ☁️ Deployed on Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Student enters a question or uploads an image.
+2. For text questions, the RAG system searches the educational knowledge base.
+3. Relevant information is retrieved from the knowledge base.
+4. The retrieved context is provided to the AI model.
+5. The AI generates a clear and student-friendly response.
+6. For image input, the multimodal AI model analyzes the uploaded image directly.
 
-## Learn More
+## 📚 RAG Knowledge Base
 
-To learn more about Next.js, take a look at the following resources:
+The project includes an educational knowledge base covering:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Machine Learning
+- Deep Learning
+- CNN
+- LSTM
+- Natural Language Processing
+- Tokenization
+- Generative AI
+- Retrieval-Augmented Generation
+- Education
+- Time Management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- Next.js
+- TypeScript
+- React
+- Tailwind CSS
+- Vercel AI SDK
+- Groq API
+- Retrieval-Augmented Generation (RAG)
+- GitHub
+- Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+studymate-ai/
+├── app/
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.ts
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+├── lib/
+│   └── rag.ts
+├── knowledge.txt
+├── package.json
+├── README.md
+└── .env.local
