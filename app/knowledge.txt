@@ -1,0 +1,77 @@
+STUDYMATE AI KNOWLEDGE BASE
+
+MACHINE LEARNING
+
+Machine Learning is a branch of Artificial Intelligence that allows computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
+
+The main types of machine learning are supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning.
+
+Supervised learning uses labeled data. Common supervised learning tasks include classification and regression.
+
+Unsupervised learning works with unlabeled data and tries to discover hidden patterns. Clustering is a common example.
+
+Reinforcement learning allows an agent to learn through interaction with an environment using rewards and penalties.
+
+DEEP LEARNING
+
+Deep Learning is a subfield of Machine Learning that uses artificial neural networks with multiple layers.
+
+Deep learning is commonly used for image recognition, speech recognition, natural language processing, and computer vision.
+
+CNN
+
+Convolutional Neural Network, or CNN, is a deep learning model commonly used for image processing and computer vision.
+
+CNNs use convolution layers to detect features such as edges, shapes, and patterns in images.
+
+A typical CNN contains convolution layers, activation functions, pooling layers, and fully connected layers.
+
+LSTM
+
+Long Short-Term Memory, or LSTM, is a type of recurrent neural network designed to work with sequential data.
+
+LSTM networks are useful for text, speech, time-series data, and other problems where previous information is important.
+
+LSTM uses gates to control what information should be remembered or forgotten.
+
+NATURAL LANGUAGE PROCESSING
+
+Natural Language Processing, or NLP, is a field of Artificial Intelligence that enables computers to understand and process human language.
+
+NLP applications include sentiment analysis, machine translation, chatbots, text classification, and speech recognition.
+
+TOKENIZATION
+
+Tokenization is the process of dividing text into smaller units called tokens. Tokens can be words, subwords, or characters.
+
+GENERATIVE AI
+
+Generative AI refers to AI systems that can create new content such as text, images, audio, video, or code.
+
+Large Language Models, or LLMs, are generative AI models trained on large amounts of text data.
+
+RAG
+
+Retrieval-Augmented Generation, or RAG, combines information retrieval with a generative AI model.
+
+In RAG, the system first retrieves relevant information from a knowledge base and then provides that information to the language model as context.
+
+The language model uses the retrieved context to generate a more relevant and grounded answer.
+
+RAG can help reduce incorrect answers because the model can use information retrieved from a specific knowledge source.
+
+EDUCATION
+
+Active learning means students learn by participating in activities such as solving problems, asking questions, discussions, and practice.
+
+Spaced repetition is a study technique where information is reviewed at increasing time intervals to improve long-term memory.
+
+Practice testing involves testing yourself on previously learned material instead of only rereading notes.
+
+TIME MANAGEMENT
+
+A study schedule should divide large topics into smaller tasks.
+
+The Pomodoro technique commonly involves focused study sessions followed by short breaks.
+
+Students should prioritize important topics, practice regularly, and review difficult concepts.
